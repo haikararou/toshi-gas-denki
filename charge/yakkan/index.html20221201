@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta name="description" content="長野都市ガスの都市ガスでんきの約款ページです。" />
+		<meta name="copyright" content="(C) Copyright Nagano toshi Gas. All Rights Reserved." />
+		<meta name="format-detection" content="telephone=no">
+		<meta name="reply-to" content="info@nagano-toshi-gas.co.jp" />
+		<meta property="og:locale" content="ja_JP" />
+		<meta property="og:site_name" content="長野都市ガス">
+		<meta property="og:title" content="電気料金のご請求について| 電気料金 ｜ 都市ガスでんき ｜長野都市ガス" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.nagano-toshi-gas.co.jp/power/charge/yakkan/" />
+		<meta property="og:description" content='長野都市ガスの都市ガスでんきの約款ページです。'>
+		<meta property="og:image" content="http://www.nagano-toshi-gas.co.jp/power/img/ogimg.jpg">
+		<title>約款・重要事項説明書| 電気料金 ｜ 都市ガスでんき ｜長野都市ガス</title>
+        
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../../css/common.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/template.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/construction.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/style.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/charge.css" media="print,screen" />
+        
+       	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WWHKHVR');</script>
+	<!-- End Google Tag Manager -->
+	</head>
+    
+    <body id="charge" class="yakkan">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWHKHVR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+      
+        <!-- header -->
+        <!--#include virtual="../../module/header.html" -->
+        
+        <!-- main -->
+        <main id="container">
+           <div class="t-right breadcrumb">
+	           	<ul>
+                    <li><a href="/power/">トップ</a></li>
+                     <li><a href="/power/charge/">電気料金</a></li>
+                    <li><a href="/power/charge/yakkan/">約款・重要事項説明書</a></li>
+                </ul>
+           </div>
+           
+           <!-- title -->
+           <div class="pagetitle icon3">
+				<h1 class="title1 icon-picchio">電気料金</h1>
+           </div>
+           
+           <!-- article -->
+           
+        <!--#include virtual="../../module/nav-charge.html" -->
+           	
+           <article class="white-bg container">
+ 
+              
+              <section class="contentsSection">
+                     <div class="wrap">
+                        <h2 class="title2 title-type1">電気需給約款</h2>
+                        <ul class="list-border">
+                        	<li><a href="/data/denki_yakan.pdf" class="iconPdf" target="_blank">電気需給約款</a></li>
+                        </ul>
+                    </div>
+                     <div class="wrap">
+                        <h2 class="title2 title-type1">電気料金メニュー定義書 </h2>
+                        <h3 class="title3 title-border">＜従量電灯Ｂ＞</h3>
+                        <ul class="list-border mb40">
+                        	<li><a href="/data/denki_menu_b1.pdf" class="iconPdf" target="_blank">でんきだけBプラン</a></li>
+                        	<li><a href="/data/denki_menu_b2.pdf" class="iconPdf" target="_blank">ガスもでんきもBプラン</a></li>
+                        	<li><a href="/data/denki_menu_b3.pdf" class="iconPdf" target="_blank">ガスもでんきもBお得プラン</a></li>
+                        </ul>
+                        <h3 class="title3 title-border">＜従量電灯Ｃ＞</h3>
+                        <ul class="list-border mb40">
+                        	<li><a href="/data/denki_menu_c1.pdf" class="iconPdf" target="_blank">でんきだけCプラン</a></li>
+                        	<li><a href="/data/denki_menu_c2.pdf" class="iconPdf" target="_blank">ガスもでんきもCプラン</a></li>
+                        	<li><a href="/data/denki_menu_c3.pdf" class="iconPdf" target="_blank">ガスもでんきもCお得プラン</a></li>
+                        </ul>
+                        <h3 class="title3 title-border">＜低圧電力＞</h3>
+                        <ul class="list-border mb40">
+                        	<li><a href="/data/denki_menu_low.pdf" class="iconPdf" target="_blank">低圧電力</a></li>
+                        </ul>
+						<h2 class="title2 title-type1" id="denki_menu_hutai">付帯メニュー定義書</h2>
+                        <ul class="list-border">
+                        	<li><a href="/data/denki_menu_hutai.pdf" class="iconPdf" target="_blank">特別割（2022年冬版）</a></li>
+                        </ul>
+                    </div>
+                     <div class="wrap">
+                        <h2 class="title2 title-type1">重要事項説明書</h2>
+                        <ul class="list-border">
+                        	<li><a href="/data/denki_jyuyoujikou.pdf" class="iconPdf" target="_blank">重要事項説明書</a></li>
+                        </ul>
+                    </div>
+                    
+   			 </section>
+    </article>
+        </main>
+        
+        <!-- footer -->
+        <!--#include virtual="../../module/footer.html" -->
+        
+        <!-- js -->
+        <!--#include virtual="../../module/js.html" -->
+    </body>
+    
+</html>

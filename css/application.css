@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contentsSection .list-border { margin-top:-1px;}
+.contentsSection .telnum,.faxnum,.contentsSection .telnum a{color: #f39700 !important;text-decoration: none;}

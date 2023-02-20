@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*index*/
+.contentsSection .telnum,.faxnum,.contentsSection .telnum a{color: #f39700 !important;}
+
+.flow-first .box { padding-left:80px;position:relative;}
+.flow-first .box::before{content: "準備";width: 60px;height: 40px;background: #f39700;border-radius: 20px;color: #fff;display: block;margin: 0 auto 10px;font-size: 1.2rem;text-align: center;line-height: 40px;position: absolute;left: 20px;top: 50%;margin-top: -20px;}
+.flow-first .box::after {content:"";display: block;background: url(../img/agreement/icon-index-01.svg) no-repeat 0 0;background-size: contain;width: 140px;height: 70px;position: absolute;right: 20px;top: 50%;margin-top: -35px;}
+@media screen and (max-width:900px){
+	.flow-first .box {padding-left: 10px;}
+	.flow-first .box::before{margin: 0 auto 10px;font-size: 1.2rem;text-align: center;position: relative;left: -5px;top: 0;}
+	.flow-first .box::after {position:static;margin: 10px auto 20px;width: 45%;height: auto;padding-top: 28.5%;}
+}
+
+.img-tel { width:30%;}
+.img-meter {width: 30%;}

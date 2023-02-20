@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background:#c2d5dc;}
+.white-bg {background: transparent;padding: 0 5%;}
+#container{background: url(../img/blackout/star.svg) repeat top;background-size: 250%;}
+.contentsSection .list-border { margin-top:-1px;}
+.contentsSection dl.list-horizontal.list-border > dd { background:#fff;}
+.contentsSection .flow2-wrap > * { padding:30px;}
+.contentsSection .flow2-wrap > *::before { }
+.contentsSection .telnum,.faxnum,.contentsSection .telnum a {color: #f39700 !important;text-decoration: none;}
+@media screen and (max-width:900px){
+	.white-bg { padding:0 0 5% 0;}
+	.contentsSection .flow2-wrap > * { padding:20px;}
+	.contentsSection .box > * { margin:0;}
+	.contentsSection dl.list-horizontal.list-border > dd { padding-left:10px;}
+}
+
+.left1 {padding-left: 120px !important;}
+.left1:before {content:"";background: url(../img/blackout/blackout_1.svg) no-repeat 50%;width:100px;height:100px;background-size: contain;border-radius:  0;}
+.left2:before,
+.left3:before,
+.left4:before,
+.left5:before {display:none;}
+.right-main { position:relative;}
+.right-main::after{ content: ""; width: 15px; height: 30px; background:url(../img/arr_gray.svg) no-repeat; background-size: contain; position: absolute; left:50%; bottom: -40px;
+-moz-transform: rotate(90deg); -webkit-transform: rotate(90deg);-o-transform: rotate(90deg); -ms-transform: rotate(90deg);}
+.right1:before {display:none;}
+.right2 { padding-right:120px !important;}
+.right2:before {content:"";background: url(../img/blackout/blackout_5.svg) no-repeat 50%;width: 120px;height: 120px;left:auto;right: 0;top:50%;margin-top:-50px;background-size: contain;border-radius: 0;}
+.right3 { position:relative;}
+.right3:before {content:"";position:absolute;background: url(../img/blackout/blackout_6.svg) no-repeat 50%;width: 120px;height: 120px;left:auto;right: 20px;top:50%;margin-top: -60px;display: block;background-size: contain;}
+.blackout-img {width: 50%;margin-bottom: 1em;}
+.blackout-img2 {width: 100%;}
+#tyuden {padding-top:140px; margin-top:-140px;}
+@media screen and (max-width:900px){
+	.left1 {padding-left: 20px !important;}
+	.right-main {margin-bottom:40px !important;}
+	.right2 { padding-right:20px !important;}
+	.right2:before { position:static; margin-top:0;}
+	.right3:before {position:static;margin: 0 auto 1em;}
+	#tyuden {padding-top:80px; margin-top:-80px;}
+}
+
+.town {border-bottom:solid 2px #000;margin-bottom: 40px;}
+.town img {width:100%;}

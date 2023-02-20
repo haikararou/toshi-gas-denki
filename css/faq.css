@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contentsSection .telnum,.faxnum,.contentsSection .telnum a{color: #f39700 !important;}
+.contentsSection .title2 { padding-top:140px; margin-top:-140px;}
+.contentsSection .title4 { padding-left:50px;}
+.contentsSection .title4::before{content:"Q";width: 40px;height: 40px;background: #f39700;border-radius: 20px;color: #fff;display: block;margin: 0 auto 10px;font-size: 1.2rem;text-align: center;line-height: 40px;position: absolute;left: 0;top: -10px;}
+@media screen and (max-width: 900px) {
+	.contentsSection .title2 { padding-top:80px; margin-top:-80px;}
+	.contentsSection .title4 { padding-left:60px;}
+	.contentsSection .title4::before {top:-8px;left: 10px;}
+}
+
+.contentsSection .box .box-innner {position:relative;padding-left: 70px;}
+.contentsSection .box .box-innner::before{content:"A";width: 40px;height: 40px;background: #f39700;border-radius: 20px;color: #fff;display: block;margin: 0 auto 10px;font-size: 1.2rem;text-align: center;line-height: 40px;position: absolute;left: 20px;top: 10px;}
+.contentsSection sup {font-size: 0.6rem;color: #f39700 !important;}

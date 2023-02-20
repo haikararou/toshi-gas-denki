@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+font
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@font-face {
+   font-family: "Noto Serif Japanese";
+   font-style: normal;
+   font-weight: 400;
+   src: url('../img/font/GenJyuuGothic-Medium_web2.woff') format('woff'),
+        url('../img/font/GenJyuuGothic-Medium_web2.woff2') format('woff2');
+ }
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+RESET CSS
+
+html5doctor.com Reset Stylesheet
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}/ change colours to suit your needs /
+ins{background-color:#ff9;color:#000;text-decoration:none}/ change colours to suit your needs /
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+common
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+*{/*transform: rotate(0.001deg);*/ font-family:"游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; margin: 0; padding: 0; box-sizing:border-box; font-weight:400;}
+body{ font-weight:100; line-height:1.8em; background:#fff; color:#000; text-align:left; font-size: 0.934rem;}
+
+a,a:link, a:visited { color:#000; text-decoration: underline; }
+a:active, a:hover { color:#000; text-decoration: underline; }
+a:hover{color:#000; text-decoration:underline;}
+
+h1, h2, h3, h4, h5 {transform: rotate(0.001deg);}
+li { list-style-type: none; transform: rotate(0.001deg);}
+dl,dt,dd { margin: 0; padding: 0; transform: rotate(0.001deg);}
+p { margin: 0 0 1em; padding: 0; text-align:left; transform: rotate(0.001deg);}
+img {border: 0; line-height: 0; vertical-align: bottom;}
+hr { display: none; }
+table { margin: 0; padding: 0; }
+th { text-align: left; font-weight: bold; margin: 0; }
+td { margin: 0; }
+em {font-weight: bold; font-style: normal;}
+form { margin: 0; padding: 0; }
+label { margin: 0; padding: 0;}
+input.btn { margin: 0 0.5em; padding: 0 1em; }
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+clearfix
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.clearfix::after {content: "";display: table;clear: both;}

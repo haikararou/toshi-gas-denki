@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta name="description" content="長野都市ガスの都市ガスでんき従量電灯Ｃプランのページです。こちらは電気を多く使うご家庭、商店、事務所、飲食店向けの料金プランです。また、電気料金のシミュレーションもできます。" />
+		<meta name="copyright" content="(C) Copyright Nagano toshi Gas. All Rights Reserved." />
+		<meta name="format-detection" content="telephone=no">
+		<meta name="reply-to" content="info@nagano-toshi-gas.co.jp" />
+		<meta property="og:locale" content="ja_JP" />
+		<meta property="og:site_name" content="長野都市ガス">
+		<meta property="og:title" content="都市ガスでんき従量電灯Ｃ| 電気料金 ｜ 都市ガスでんき ｜長野都市ガス" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.nagano-toshi-gas.co.jp/power/charge/plan2/" />
+		<meta property="og:description" content='長野都市ガスの都市ガスでんき従量電灯Ｃプランのページです。こちらは電気を多く使うご家庭、商店、事務所、飲食店向けの料金プランです。また、電気料金のシミュレーションもできます。'>
+		<meta property="og:image" content="http://www.nagano-toshi-gas.co.jp/power/img/ogimg.jpg">
+		<title>都市ガスでんき従量電灯Ｃ| 電気料金 ｜ 都市ガスでんき ｜長野都市ガス</title>
+        
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../../css/common.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/template.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/construction.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/style.css" media="print,screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/charge.css" media="print,screen" />
+        
+       	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WWHKHVR');</script>
+	<!-- End Google Tag Manager -->
+	</head>
+    
+    <body id="charge" class="plan plan2">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWHKHVR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+      
+        <!-- header -->
+        <!--#include virtual="../../module/header.html" -->
+        
+        <!-- main -->
+        <main id="container">
+           <div class="t-right breadcrumb">
+	           	<ul>
+                    <li><a href="/power/">トップ</a></li>
+                     <li><a href="/power/charge/">電気料金</a></li>
+                    <li><a href="/power/charge/plan2/">都市ガスでんき従量電灯Ｃ</a></li>
+                </ul>
+           </div>
+           
+           <!-- title -->
+           <div class="pagetitle icon3">
+				<h1 class="title1 icon-picchio">電気料金</h1>
+           </div>
+           
+           <!-- article -->
+           
+        <!--#include virtual="../../module/nav-charge.html" -->
+
+           <article class="white-bg container">
+ 
+              <section class="contentsSection">
+                	<h2 class="title2 title-type1">都市ガスでんき従量電灯Ｃ<br class="sp"><span class="txt-size80 ml10">中部電力の「従量電灯Ｃ」に相当</span></h2>
+					<p>電気を多く使うご家庭、商店、事務所、飲食店向けの料金プランです。</p>
+                    
+                     <div class="wrap">
+                      	<h3 class="title3 title-border">料金表<span class="txt-size80">[税込]</span></h3>
+                      	
+                       	<div class="box-column-size1 wrap">
+                   		  <div class="tablewrap">
+							<p class="sp key-coler caption">表は横にスクロールしてご覧ください。</p>
+                       		<table class="table t-center">
+                      			<thead>
+								<tr>
+								  <th colspan="2" rowspan="2">&nbsp;</th>
+								  <th rowspan="2">単位</th>
+								  <th colspan="3">料金単価</th>
+								  </tr>
+								<tr>
+								  <th>でんきだけＣプラン</th>
+								  <th>ガスもでんきもＣプラン</th>
+								  <th>ガスもでんきもＣお得プラン</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <th colspan="2">基本料金</th>
+								  <th>ひと月1kVA</th>
+								  <td colspan="3">286.00円</td>
+							    </tr>
+								<tr>
+								  <th rowspan="2">電力量料金</th>
+								  <th>300kWhまで</th>
+								  <th rowspan="2">1kWh</th>
+								  <td>24.12円</td>
+								  <td>24.12円</td>
+								  <td>24.12円</td>
+								</tr>
+								<tr>
+								  <th>300kWhを超えたもの</th>
+								  <td>28.16円</td>
+								  <td>26.51円</td>
+								  <td>26.18円
+</td>
+								</tr>
+							  </tbody>
+							</table>
+							</div>
+                       	</div>
+                        <div class="wrap">
+							<h3 class="title3 title-border">電気料金シュミレーションができます。</h3>
+							<div class="box-column-size1 wrap t-center">
+								<a class="btn size-l btn-arr w70p" href="/power/simulation/"><span class="txt-size90 disblo mb10 lh1-5em">お手元に電気の「検針票」を<br class="sp">ご用意ください<br>かんたんに電気料金<br class="sp">シュミレーションができます！</span>電気料金シュミレーション</a>
+							</div>
+				   		</div>
+                       	
+					</div>
+    				
+				   		<div class="wrap">
+							<h3 class="title4 title-type3">従量電灯Cの適用条件</h3>
+							<p>電灯または小型機器を使用し、次のいずれにも該当する場合に適用します。</p>
+							<ol class="list-border txt-size80 mb20">
+								<li class="indent">&#9312;契約容量が6キロボルトアンペア以上であり、かつ、原則として50キロボルトアンペア未満であること。</li>
+								<li class="indent">&#9313;1需要場所において低圧電力とあわせて契約する場合は、契約容量と契約電力との合計（この場合、1キロボルトアンペアを1キロワットとみなします。）が50キロワット未満であること。</li>
+							</ol>
+					    </div>
+		   			    <div class="wrap">
+			   			    <h3 class="title4 title-type3 mb30">プランの適用条件</h3>
+			   			    
+			   			    <h4 class="title4">1.ガスもでんきもＣプラン</h4>
+							<ol class="list list-border txt-size80 mb20">
+								<li>当社のガスと電気のご使用場所が同じであること。</li>
+								<li>ガスと電気のご契約者が同じであること。（電気の契約者名義の変更に同意していただける場合を含む）</li>
+							</ol>
+							
+							<h4 class="title4">2.ガスもでんきもＣお得プラン</h4>
+							<ol class="list list-border txt-size80 mb10">
+								<li>当社のガスと電気のご使用場所が同じであること。</li>
+								<li>ガスと電気のご契約者が同じであること。（電気の契約者名義の変更に同意していただける場合を含む）</li>
+								<li>お客さまの電気の契約における需要場所において、次のいずれかに該当すること。
+									<ol class="list txt-size80 mb20">
+										<li class="indent">&#9312;給湯機器<span class="key-coler txt-size70">※１</span>、厨房機器<span class="key-coler txt-size70">※２</span>および暖房機器<span class="key-coler txt-size70">※３</span>の3機器をいずれも使用すること。</li>
+										<li class="indent">&#9313;ガスの契約が、家庭用高効率給湯器契約、家庭用ガス温水暖房契約、または家庭用ガスコージェネレーションシステム契約のいずれかを締結していること。</li>
+                                        </li>
+                                        </ol>
+                                        <p class="caption num1">給湯機器とは、エネルギー源として都市ガスを使用し、温水または蒸気を作る機能を有する燃焼機器をいいます（風呂給湯器、給湯器等）。</p>
+                                        <p class="caption num2">厨房機器とは、エネルギー源として都市ガスを使用する調理機器をいいます（コンロ等）。</p>
+                                        <p class="caption num3">暖房機器とは、エネルギー源として都市ガスを使用し、暖房を行う機能を有する燃焼機器もしくは温水機器によって作った温水を利用して暖房を行うシステムのことをいいます（ファンヒーター、赤外線ストーブ等）。</p>
+								</li>
+							</ol>
+				   		</div>
+				   		</div>
+   			 </section>
+                
+                
+    </article>
+            
+           
+            
+        </main>
+        
+        <!-- footer -->
+        <!--#include virtual="../../module/footer.html" -->
+        
+        <!-- js -->
+        <!--#include virtual="../../module/js.html" -->
+    </body>
+    
+</html>

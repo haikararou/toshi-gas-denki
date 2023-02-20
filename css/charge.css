@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*all*/
+@media screen and (max-width: 1100px) {
+	body#charge .contentsSection .mb40 {margin-bottom: 1.5em !important;}
+}
+@media screen and (max-width: 1000px) {
+	body#charge .nav-tab li a { font-size:1rem;}
+}
+
+/*nav*/
+body#charge.plan1 .nav-tab .nav-plan1::after,
+body#charge.plan2 .nav-tab .nav-plan2::after,
+body#charge.plan3 .nav-tab .nav-plan3::after,
+body#charge.calculation .nav-tab .nav-calculation::after,
+body#charge.payment .nav-tab .nav-payment::after,
+body#charge.yakkan .nav-tab .nav-yakkan::after{content: ""; width:92%; height: 2px; display: block; position: absolute; left: 4%; bottom: 0; background:#f39700; }
+
+/*index*/
+body#charge.index .contentsSection .btn {}
+body#charge.index .contentsSection .btn .disblo { text-align:left;}
+body#charge.index .contentsSection .btn .caption {text-align: left;margin-bottom: 0;color: #000;}
+body#charge.index .bg-icon-plan1:after {content:"";display:block;position: absolute;background:url(../img/charge/icon-index-01.svg) no-repeat 0 50%;width: 100px;height: 100px;top: 50%;right: 5%;margin-top: -50px;background-size: contain;}
+body#charge.index .bg-icon-plan2:after {content:"";display:block;position: absolute;background:url(../img/charge/icon-index-02.svg) no-repeat 0 50%;width: 100px;height: 100px;top: 50%;right: 5%;margin-top: -50px;background-size: contain;}
+body#charge.index .bg-icon-plan3:after {content:"";display:block;position: absolute;background:url(../img/charge/icon-index-03.svg) no-repeat 0 50%;width: 100px;height: 100px;top: 50%;right: 5%;margin-top: -50px;background-size: contain;}
+@media screen and (max-width: 1100px) {
+    body#charge.index .contentsSection .btn { padding-top:120px;}
+    body#charge.index .contentsSection .btn .disblo {text-align:center;line-height: 1.2;}
+    body#charge.index .bg-icon-plan1:after,
+    body#charge.index .bg-icon-plan2:after,
+    body#charge.index .bg-icon-plan3:after {top: 10px;left:50%;margin: 0 0 0 -50px;}
+}
+
+/*plan*/
+.bg-red {background: #ffcccc;}
+.bg-yellow { background:#ffd878;}
+.indent {padding-left:1em;text-indent:-1em;}
+body#charge.plan table.table tr * {vertical-align: middle;}
+body#charge.plan ol.list > li {padding-left: 4em;}
+body#charge.plan ol.list > li::before {content:"("counter(listnum)')';margin-left: -2.5rem;margin-right: 1rem;}
+body#charge.plan ol.list > li.indent {padding-left: 1em;} 
+body#charge.plan ol.list > li.indent::before { display:none;}
+
+/*calculation*/
+body#charge.calculation p img { width:100%; max-width:1000px;}
+
+/*payment*/
+body#charge.payment .table th { width:8em;}
+body#charge.payment .img_credit {max-width: 316px;}
+body#charge.payment .list-horizontal { margin-top:-1px;}
+body#charge.payment  p img { width:100%; max-width:1000px;}
+@media screen and (max-width: 1100px) {
+	body#charge.payment table.table { width:100%}
+	body#charge.payment .img_credit { max-width:100%;}
+}
+
+/*yakkan*/
+/*pdf*/
+.iconPdf{ position:relative; padding-left:30px; display:block;}
+.iconPdf:before{ content:""; width:18px; height:24px; display:block; background:url(../img/icon_pdf.png) no-repeat; background-size:18px; top:0; left:0; position:absolute;}
+a.iconPdf{color:#FF0000;text-decoration: none;}

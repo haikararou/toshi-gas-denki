@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+
+
+/*construction.css*/
+
+a[target="_blank"]:not(.btn_lp):after {
+    background: currentColor;
+    box-shadow: 1px -1px currentColor;
+    content: '';
+    width: .6em;
+    height: .4em;
+    display: inline-block;
+    vertical-align: middle;
+    background-clip: content-box;
+    padding: 2px 2px 0 0;
+    box-sizing: border-box;
+    margin-left: .3em;
+}
+
+
+/*--- 全体の幅 ------------------------------*/
+
+/*btn*/
+.btn_lp {
+	    background: #f29600;
+    color: #fff !important;
+    font-weight: bold;
+    display: block;
+    text-decoration: none !important;
+    font-size: 175%;
+    border: solid 4px #000;
+    line-height: 70px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px #000000;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+	}
+.btn_lp:hover { background:#fff; color:#f29600 !important;-webkit-transition: all .3s;  transition: all .3s;}
+a[target="_blank"].btn_lp:after {content:"";display:block;width:15px;height:30px;background: url(../../2020%20-%20Copy/img/icon-arrow.svg) no-repeat 50%;background-size:contain;position: absolute;top: 50%;right: 10px;margin-top: -15px;box-shadow: none;}
+.wide {}
+.short { max-width:435px; width:48.3%;}
+.btn-area {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:1100px){
+	.btn_lp {font-size:150%;border: solid 3px #000;}
+}
+@media screen and (max-width:900px){
+	.btn_lp {font-size: 130%;line-height:3em;margin-bottom:1em;}
+	.btn-area {flex-direction: column;}
+	.short { width:100%;max-width:100%;}
+	.txtLong {line-height: 1.6em;padding: .5em 0;}
+}
+
+/*icon*/
+.icon {display:block;position:absolute;z-index: 10;}
+.icon-toshikazu {background:url(../../2020%20-%20Copy/img/icon-toshikazu.png) no-repeat 0 0;background-size:contain;max-width: 206px;width: 22.8%;height: 92px;right: 0;top: -30px;}
+.icon-toshikazu2 {background:url(../../2020%20-%20Copy/img/icon-toshikazu2.png) no-repeat 0 0;background-size:contain;max-width: 160px;width: 41%;height: 96px;top: -10px;right: 0;}
+.icon-hito {    background: url(../../2020%20-%20Copy/img/icon-06.svg) no-repeat 50%;
+    background-size: contain;
+    max-width: 58px;
+    width: 16%;
+    height: 59px;
+    bottom: -1px;
+    left: 10px;}
+.icon-denki {background: url(../../2020%20-%20Copy/img/icon-01.svg) no-repeat 50%;background-size:contain;width: 56px;height: 90px;left: 50%;margin-left: -28px;top: -42px;}
+.icon-kami {background: url(../../2020%20-%20Copy/img/point4-img.png) no-repeat 50%;background-size:contain;width: 15%;height: 110px;right: 3%;top: -41px;}
+.icon-kirikae {background: url(../../2020%20-%20Copy/img/icon-kirikae.svg) no-repeat 50%;background-size:contain;width: 104px;height: 85px;left: 50%;margin-left: -52px;top: -35px;}
+.icon-pc {background: url(../../2020%20-%20Copy/img/icon-04.svg) no-repeat 50%;background-size:contain;max-width: 92px;width: 15%;height: 65px;bottom: -10%;left: -15px;}
+.icon-faq {background:url(../../2020%20-%20Copy/img/icon-08.svg) no-repeat 50%;background-size:contain;width:60px;height:90px;left: 50%;margin-left: -30px;top: -35px;}
+@media screen and (max-width:1200px){
+	.icon-toshikazu { width:20%;top:-10px;}
+}
+@media screen and (max-width:1100px){
+	.icon-toshikazu { display:none;}
+}
+@media screen and (max-width:900px){
+	.icon-hito     {
+		bottom: -2px;
+    height: 50px;}
+	.icon-denki {width:28px;height: 45px;margin-left: -14px;top: -21px;}
+	.icon-kami {top: -60px;width: 60px;height: 80px;}
+	.icon-kirikae {width: 52px;height: 42px;margin-left: -26px;top: -17px;}
+	.icon-pc {    left: -30px;
+    height: 30px;
+    width: 80px;
+    bottom: 10px;
+    max-width: 80px;}
+	.icon-faq {width:30px;height: 45px;margin-left: -15px;top: -25px;}
+}
+
+
+
+
+
+
+
+/* 追記 2019.0822 ////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.lp_campaign .strong{
+	font-weight:bold;	
+}
+.lp_campaign .strong span{
+	display:block;
+}
+.lp_campaign .img_area {
+    margin: 0 auto;
+    padding: 40px 60px 80px;
+}
+.lp_campaign h2 {
+    text-align: center;
+    padding: 1.6vh;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.lp_campaign .main_visual {
+	margin-bottom:40px;
+}
+
+.lp_campaign.container{
+    margin: 20px 5% 80px;
+    padding: 5% 15%;
+}
+.lp_campaign .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 60px;
+    width: 88.25%;
+}
+@media screen and (max-width: 767px) {
+.lp_campaign.container{
+margin: 0 5%;
+    padding: 5%;
+}
+.lp_campaign .img_area {
+max-width: inherit;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.lp_campaign .img_area img {
+ height: inherit;
+}
+.lp_campaign h2 {
+    text-align: left;
+    padding: 2.2vh;
+    font-size: 2.2vh;
+    font-weight: bold;
+}
+	.lp_campaign .wrapper {
+    max-width: inherit;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 0;
+    width: inherit;
+}
+}
