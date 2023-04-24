@@ -69,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
               
               <section class="contentsSection">
-                	<h2 class="title2 title-type1">都市ガスでんき低圧電力<br class="sp"><span class="txt-size80 ml10">中部電力ミライズの「低圧電力」に相当</span></h2>
+                	<h2 class="title2 title-type1">都市ガスでんき低圧電力<br class="sp"><span class="txt-size80 ml10">中部電力の「低圧電力」に相当</span></h2>
 					<p>業務用エアコンやモーターなどの動力を使用する商店、事務所、工場、マンション共用部向けの料金プランです。</p>
                     
                      <div class="wrap">
@@ -88,12 +88,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<tr>
 									  <th>基本料金</th>
 									  <td>ひと月1kW</td>
-									  <td>825.08円</td>
+									  <td>792.08円</td>
 									</tr>
 									<tr>
 									  <th>電力量料金</th>
 									  <td>1kWh</td>
-									  <td>20.85円</td>
+									  <td>20.77円</td>
 									</tr>
 								  </tbody>
 							</table>

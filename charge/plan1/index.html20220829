@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
            <article class="white-bg container">
  
                 <section class="contentsSection">
-                	<h2 class="title2 title-type1">都市ガスでんき従量電灯Ｂ<span class="txt-size80 ml10">中部電力ミライズの「従量電灯Ｂ」に相当</span></h2>
+                	<h2 class="title2 title-type1">都市ガスでんき従量電灯Ｂ<span class="txt-size80 ml10">中部電力の「従量電灯Ｂ」に相当</span></h2>
                 	<div class="wrap">
 						<p>一般のご家庭、商店など向けの料金プランです。</p>
 						<dl class="list-horizontal  list-border">
@@ -77,11 +77,72 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<dt>ガスもでんきもＢお得プラン</dt><dd>長野都市ガスのガスをお使いで、家庭用選択約款をご契約している、または、給湯機器、厨房機器および暖房機器の3機器をいずれもお使いのお客さまが選択できる更におトクなプランです。</dd>
 						</dl>
                     </div>
-
-
-
+                    <div class="wrap">
+                      	<h3 class="title3 title-border">電気料金おトク額早見表<span class="txt-size80">[税込]</span></h3>
+                      	<p>中部電力の従量電灯Ｂ（40Ａ）から「都市ガスでんき」に切り替えた場合のおトク額 </p>
+                       	<div class="box-column-size1 wrap">
+                       		<p class="sp key-coler caption">表は横にスクロールしてご覧ください。</p>
+                       		<div class="tablewrap">
+                       		<table class="table t-center">
+								  <thead>
+									<tr>
+									  <th rowspan="3">年間使用量</th>
+									  <th colspan="3">年間おトク額</th>
+								    </tr>
+									<tr>
+									  <th>でんきだけＢプラン</th>
+									  <th>ガスもでんきもＢプラン</th>
+									  <th>ガスもでんきもＢお得プラン</th>
+									</tr>
+								  </thead>
+								  <tbody>
+									<tr>
+									  <th>2,400kWh<br>（月平均200kWh）</th>
+									  <td class="bg-red">約<span class="red-coler txt-size120">2,900</span>円高くなります</td>
+									  <td class="bg-red">約<span class="red-coler txt-size120">2,160</span>円高くなります</td>
+									  <td class="bg-red">約<span class="red-coler txt-size120">1,320</span>円高くなります</td>
+									</tr>
+									<tr>
+									  <th>3,600kWh<br>（月平均300kWh）</th>
+									  <td class="bg-red">約<span class="red-coler txt-size120">1,760</span>円高くなります</td>
+									  <td class="bg-red">約<span class="red-coler txt-size120">130</span>円高くなります</td>
+									  <td class="bg-yellow">約<strong><span class="green-coler txt-size120">1,810</span>円</strong>おトク</td>
+									</tr>
+									<tr>
+									  <th>4,800kWh<br>（月平均400kWh）</th>
+									  <td class="bg-red">約<span class="red-coler txt-size120">180</span>円高くなります</td>
+									  <td class="bg-yellow">約<strong><span class="green-coler txt-size120">2,280</span>円</strong>おトク</td>
+									  <td class="bg-yellow">約<strong><span class="green-coler txt-size120">5,370</span>円</strong>おトク</td>
+									</tr>
+									<tr>
+									  <th>6,000kWh<br>（月平均500kWh）</th>
+									  <td class="bg-yellow">約<strong><span class="green-coler txt-size120">1,640</span>円</strong>おトク</td>
+									  <td class="bg-yellow">約<strong><span class="green-coler txt-size120">4,880</span>円</strong>おトク</td>
+									  <td class="bg-yellow">約<strong><span class="green-coler txt-size120">9,160</span>円</strong>おトク</td>
+									</tr>
+								  </tbody>
+							</table>
+							</div>
+                       	</div>
+                       	<div class="box-column-size1 wrap">
+                       	
+                       	<h5 class="title5">＜試算条件＞</h5>
+                        <p class="caption">中部電力の料金（従量電灯Ｂ,40Ａ）は、2020年10月時点の料金表で計算しています。</p>
+                        <p class="caption">長野都市ガスの料金は2020年10月の料金表で計算しています。</p>
+						<p class="caption">月別の使用量は、当社が推計した月別使用量比率を用いて換算しています。</p>
+						<p class="caption">試算には、燃料費調整額と再生可能エネルギー発電促進賦課金は含みません。</p>
+						<p class="caption">中部電力の口座振替初回引落とし割引（55円/月）を含みます。</p>
+						<p class="caption">モデルケースは上記条件に基づき、試算しておりますので、実際の料金とは異なります。</p>
+						<p class="caption">お客さまのご使用状況によっては、年間使用量や料金メリットが異なりますので、ご了承ください。</p>
+					</div>
+					</div>
     				
-
+                     	<div class="wrap">
+							<h3 class="title3 title-border">電気料金シュミレーションができます。</h3>
+							<div class="box-column-size1 wrap t-center">
+								<a class="btn size-l btn-arr w70p" href="/power/simulation/"><span class="txt-size90 disblo mb10 lh1-5em">お手元に電気の「検針票」を<br class="sp">ご用意ください<br>かんたんに電気料金<br class="sp">シュミレーションができます！</span>電気料金シュミレーション</a>
+							</div>
+				   		</div>
     			
                      	<div class="wrap">
                       	<h3 class="title3 title-border">料金表<span class="txt-size80">[税込]</span></h3>
@@ -106,31 +167,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									  <th colspan="2" rowspan="7">基本料金</th>
 									  <th>10Ａ</th>
 									  <th rowspan="7">ひと月</th>
-									  <td colspan="3">297.00円</td>
+									  <td colspan="3">286.00円</td>
 									</tr>
 									<tr>
 									  <th>15Ａ</th>
-									  <td colspan="3">445.50円</td>
+									  <td colspan="3">429.00円</td>
 									</tr>
 									<tr>
 									  <th>20Ａ</th>
-									  <td colspan="3">594.00円</td>
+									  <td colspan="3">572.00円</td>
 									</tr>
 									<tr>
 									  <th>30Ａ</th>
-									  <td colspan="3">891.00円</td>
+									  <td colspan="3">858.00円</td>
 									</tr>
 									<tr>
 									  <th>40Ａ</th>
-									  <td colspan="3">1,188.00円</td>
+									  <td colspan="3">1,144.00円</td>
 									</tr>
 									<tr>
 									  <th>50Ａ</th>
-									  <td colspan="3">1,485.00円</td>
+									  <td colspan="3">1,430.00円</td>
 									</tr>
 									<tr>
 									  <th>60Ａ</th>
-									  <td colspan="3">1,782.00円</td>
+									  <td colspan="3">1,716.00円</td>
 									</tr>
 								  </tbody>
 								</table>
@@ -157,20 +218,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									  <th rowspan="3">電力量料金</th>
 									  <th>120kWhまで</th>
 									  <th rowspan="3">1kWh</th>
-									  <td>23.39円</td>
-									  <td>23.39円</td>
-									  <td rowspan="2">23.39円</td>
+									  <td>23.10円</td>
+									  <td>23.10円</td>
+									  <td rowspan="2">23.10円</td>
 									</tr>
 									<tr>
 									  <th>120kWhを超え300kWhまで</th>
-									  <td>25.04円</td>
-									  <td>24.27円</td>
+									  <td>24.75円</td>
+									  <td>23.98円</td>
 								    </tr>
 									<tr>
 									  <th>300kWhを超えたもの</th>
-									  <td>27.24円</td>
-									  <td>26.58円</td>
-									  <td>25.59円</td>
+									  <td>26.95円</td>
+									  <td>26.29円</td>
+									  <td>25.30円</td>
 									</tr>
 								  </tbody>
 								</table>

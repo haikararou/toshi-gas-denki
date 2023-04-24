@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
            <article class="white-bg container">
  
                 <section class="contentsSection">
-                	<h2 class="title2 title-type1">都市ガスでんき従量電灯Ｂ<span class="txt-size80 ml10">中部電力ミライズの「従量電灯Ｂ」に相当</span></h2>
+                	<h2 class="title2 title-type1">都市ガスでんき従量電灯Ｂ<span class="txt-size80 ml10">中部電力の「従量電灯Ｂ」に相当</span></h2>
                 	<div class="wrap">
 						<p>一般のご家庭、商店など向けの料金プランです。</p>
 						<dl class="list-horizontal  list-border">
@@ -106,31 +106,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									  <th colspan="2" rowspan="7">基本料金</th>
 									  <th>10Ａ</th>
 									  <th rowspan="7">ひと月</th>
-									  <td colspan="3">297.00円</td>
+									  <td colspan="3">286.00円</td>
 									</tr>
 									<tr>
 									  <th>15Ａ</th>
-									  <td colspan="3">445.50円</td>
+									  <td colspan="3">429.00円</td>
 									</tr>
 									<tr>
 									  <th>20Ａ</th>
-									  <td colspan="3">594.00円</td>
+									  <td colspan="3">572.00円</td>
 									</tr>
 									<tr>
 									  <th>30Ａ</th>
-									  <td colspan="3">891.00円</td>
+									  <td colspan="3">858.00円</td>
 									</tr>
 									<tr>
 									  <th>40Ａ</th>
-									  <td colspan="3">1,188.00円</td>
+									  <td colspan="3">1,144.00円</td>
 									</tr>
 									<tr>
 									  <th>50Ａ</th>
-									  <td colspan="3">1,485.00円</td>
+									  <td colspan="3">1,430.00円</td>
 									</tr>
 									<tr>
 									  <th>60Ａ</th>
-									  <td colspan="3">1,782.00円</td>
+									  <td colspan="3">1,716.00円</td>
 									</tr>
 								  </tbody>
 								</table>
@@ -157,20 +157,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									  <th rowspan="3">電力量料金</th>
 									  <th>120kWhまで</th>
 									  <th rowspan="3">1kWh</th>
-									  <td>23.39円</td>
-									  <td>23.39円</td>
-									  <td rowspan="2">23.39円</td>
+									  <td>23.10円</td>
+									  <td>23.10円</td>
+									  <td rowspan="2">23.10円</td>
 									</tr>
 									<tr>
 									  <th>120kWhを超え300kWhまで</th>
-									  <td>25.04円</td>
-									  <td>24.27円</td>
+									  <td>24.75円</td>
+									  <td>23.98円</td>
 								    </tr>
 									<tr>
 									  <th>300kWhを超えたもの</th>
-									  <td>27.24円</td>
-									  <td>26.58円</td>
-									  <td>25.59円</td>
+									  <td>26.95円</td>
+									  <td>26.29円</td>
+									  <td>25.30円</td>
 									</tr>
 								  </tbody>
 								</table>
