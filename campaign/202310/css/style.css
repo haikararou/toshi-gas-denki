@@ -23,37 +23,38 @@ a[target="_blank"]:not(.btn_lp):after {
 
 /*btn*/
 .btn_lp {
-	    background: #f29600;
+	background: #eb5e02;
     color: #fff !important;
     font-weight: bold;
     display: block;
     text-decoration: none !important;
-    font-size: 175%;
-    border: solid 4px #000;
-    line-height: 70px;
+    font-size:20px;
+    /* border: solid 4px #000; */
+    padding: 24px 8px;
     position: relative;
     text-align: center;
     box-sizing: border-box;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 4px 4px 0px 0px #666;
     -webkit-transition: all .3s;
     transition: all .3s;
 	}
-.btn_lp:hover { background:#fff; color:#f29600 !important;-webkit-transition: all .3s;  transition: all .3s;}
+.btn_lp:hover { background:#fff2e9; color:#eb5e02 !important;-webkit-transition: all .3s;  transition: all .3s;}
 a[target="_blank"].btn_lp:after {content:"";display:block;width:15px;height:30px;background: url(../../2020%20-%20Copy/img/icon-arrow.svg) no-repeat 50%;background-size:contain;position: absolute;top: 50%;right: 10px;margin-top: -15px;box-shadow: none;}
 .wide {}
 .short { max-width:435px; width:48.3%;}
 .btn-area {
     padding: 0 10px;
     display: flex;
-    justify-content: space-between;
     padding-bottom: 20px;
+    justify-content: center;
+    gap:16px 32px;
 }
 @media screen and (max-width:1100px){
-	.btn_lp {font-size:150%;border: solid 3px #000;}
+	.btn_lp {font-size:20px;}
 }
 @media screen and (max-width:900px){
-	.btn_lp {font-size: 130%;line-height:3em;margin-bottom:1em;}
+	.btn_lp {font-size: 18px;padding: 18px 8px;}
 	.btn-area {flex-direction: column;}
 	.short { width:100%;max-width:100%;}
 	.txtLong {line-height: 1.6em;padding: .5em 0;}
@@ -162,4 +163,30 @@ max-width: inherit;
     padding-bottom: 0;
     width: inherit;
 }
+}
+
+
+.contact dl {display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; justify-content:space-between; margin-top: 32px;}
+.contact dl div { width: 48.5%; background: #fdd900; padding:  24px; border-radius: 30px;}
+.contact dl div dt { font-size: 24px; font-weight: 700; line-height: 120%; margin-bottom: 10px; color: #111; text-align: center;}
+.contact dl div dt span { display: block; font-size: 16px; font-weight: 500;}
+.contact dl div dd { text-align: center;}
+.contact dl div dd a { text-decoration: none;}
+.contact dl div dd span { /*font-family: Roboto, sans-serif;*/ font-family: "Arial", "メイリオ"; font-size: 32px; color: var(--color-primary); font-weight: 700; line-height: 100%;}
+.contact dl div dd span::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin: -4px 10px 0 0;
+    width: 29px;
+    height: 29px;
+    background: url('../img/tel.svg') no-repeat;
+    background-size: contain
+}
+@media screen and (max-width:767px){
+    .contact dl {display:block;}
+    .contact dl div { width: 100%; margin: 0 auto 16px; padding: 18px;border-right: 20px;}
+    .contact dl div dt { font-size: 18px;}
+    .contact dl div dd span { font-size: 24px;}
+	.contact dl div dd span::before{width: 18px;height: 18px;}
 }
